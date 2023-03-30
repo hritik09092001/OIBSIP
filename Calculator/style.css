@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css2?family=Orbitron&display=swap);
+
+.table{
+    padding: 15px;
+    border-radius: 5px;
+    height: 450px;
+    width: 440px;
+    margin: auto;
+    background-color: #888f8a;
+    box-shadow: rgba(36, 62, 129, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+h2{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+.display{
+    font-family: 'Orbitron', sans-serif;
+    background-color: #4c464d;
+    border: solid black 0.5px;
+    color:rgb(11, 111, 114);
+    border-radius: 5px;
+    width: 95%;
+    height: 65%;
+    font-size: 20px;
+}
+
+#btn{
+    background-color: rgb(240, 150, 50);
+}
+
+input[type=button]{
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: aliceblue;
+    color: #574c4b;
+    border: solid black 0.5px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: rgb(0, 92, 128) 4px 4px 4px ;
+    height: 70%;
+    outline: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input:active[type=button]{
+    background-color: #503400;
+    color:azure;
+    font-weight: inherit;
+    
+}
+body{
+    background-color: lightgray;
+}
